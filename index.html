@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fortune Booth</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="imageMain">
+      <img src="fortune.png" alt="fortune telling image">
+    </div>
+
+    <div class="halfnumQ">
+      <label>HALF THIS NUMBER...
+        <input type="number" id="halfInput">
+      </label>
+      <button id="halfButton">Calculate</button>
+      <br><br>
+    </div>
+
+    <div class="fortuneQ">
+      <label>GIVE ME YOUR NAME AND I'LL GIVE YOU A FORTUNE...
+        <input id="fortuneInput">
+      </label>
+      <button id="fortuneButton">Get Fortune</button>
+      <br><br>
+      <!-- <div id="fortuneOutput"></div> -->
+    </div>
+
+    <div class="explanation">
+      YOUR FORTUNE WILL BE MORE LIKELY TO HAPPEN DEPENDING ON THE SIZE, COLOR, OR EVEN capitalization.
+    </div>
+
+    <br>
+    <div id="fortuneOutput"></div>
+
+    <!-- https://www.behance.net/gallery/90807035/Fortune-Teller image credit -->
+
+    <script src="script.js" charset="utf-8"></script>
+
+  </body>
+</html>
